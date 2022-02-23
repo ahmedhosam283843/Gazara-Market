@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Gazara.exe" version="1.0.0.0" publicKeyToken="4487d56ed1f12682" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Gazara" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Gazara.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Gazara.exe" size="516544">
+      <assemblyIdentity name="Gazara" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>kShGKRzJydYCoKUkmdw8tQI0x93eha/Y6+NRBwDWiT4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Gazara.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=AHMEDHOSAM\ahmed" issuerKeyHash="c802cdef22a77ddf02aee8466dec5ae1656ca729" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>tZs0zUn2cCBcqUh4r41tsLn57WWDwa1EwFEI0JYRe4c=</DigestValue></Reference></SignedInfo><SignatureValue>C0uaKx4CWFfU7eXumOylnWjvuAuasM2H7tmjGEVVrRDszZa8ZL/vCBH5mbCwcExiFE3hzkKG1mR5e4GdX719HCw4uuwfkvvg3kR8lGm9xCOwOd4ilzYEH0i2EUtDiei1aD4XHbDRuSR22LsICCPU0ABnLQwz/M8oGoXR8e2gBH4=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>ssSeY79PWbvwYAyaMhMxFOOva7MevLqkL4DArHUFrvvCafaKAFWTCT7ZlNr4YcOXzc9M/+ZRy57NC1HdL3f0UDqek0iDUsvqbeeKiDa/m2ImmBppm13ojV4cb8Ig0aEorN105WI14nqEDgGAkimgQY3XwXRk3uhslTNuSEeUToU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="877b1196d00851c044adc18365edf9b9b06d8daf7848a95c2070f649cd349bb5" Description="" Url=""><as:assemblyIdentity name="Gazara.exe" version="1.0.0.0" publicKeyToken="4487d56ed1f12682" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=AHMEDHOSAM\ahmed</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>UIC0250S2VUeGzBWM3I3zzNDJz6LYtFX55Va3bT9hfo=</DigestValue></Reference></SignedInfo><SignatureValue>cdtn0gU4qKR4vLrmI7Dm/eptT1/BPD97GedywxV1Uz0kgtNlq2RnnHHUy+iddgE6R9YtL+Y1+wJJQELqyvmAon501Wa0F/b6LnOetV2JXApXrrQSDsiBC+GWMisxFbTSKOE3MVtm8lp+aebktIOrbxeIxp9JYitjTmvCYqhmUGo=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>ssSeY79PWbvwYAyaMhMxFOOva7MevLqkL4DArHUFrvvCafaKAFWTCT7ZlNr4YcOXzc9M/+ZRy57NC1HdL3f0UDqek0iDUsvqbeeKiDa/m2ImmBppm13ojV4cb8Ig0aEorN105WI14nqEDgGAkimgQY3XwXRk3uhslTNuSEeUToU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB2TCCAUKgAwIBAgIQWxTcxv4a5o9BHIy8p1JK/jANBgkqhkiG9w0BAQsFADArMSkwJwYDVQQDHiAAQQBIAE0ARQBEAEgATwBTAEEATQBcAGEAaABtAGUAZDAeFw0yMjAxMTcxNzE5NDJaFw0yMzAxMTcyMzE5NDJaMCsxKTAnBgNVBAMeIABBAEgATQBFAEQASABPAFMAQQBNAFwAYQBoAG0AZQBkMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCyxJ5jv09Zu/BgDJoyEzEU469rsx68uqQvgMCsdQWu+8Jp9ooAVZMJPtmU2vhhw5fNz0z/5lHLns0LUd0vd/RQOp6TSINSy+pt54qINr+bYiaYGmmbXeiNXhxvwiDRoSis3XTlYjXieoQOAYCSKaBBjdfBdGTe6GyVM25IR5ROhQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAIoBTOOeNfkZMx1OvqTaColfZekLowQLUJw66hMWC43Sf1kr7UslTg59z3ZgopC/RSU+XDB4jSA5JjbrlBEC1okTUG5k13vB5qfh/IuiW49XkKiMXVXe2B73V7+EOuXIrsH4U5ucn3TBlhl6gYq1ed9rs4DKID2xh4N4jKOMeI+p</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
